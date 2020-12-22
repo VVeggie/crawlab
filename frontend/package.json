@@ -23,7 +23,7 @@
     "babel-polyfill": "^6.26.0",
     "core-js": "^3.6.5",
     "cross-env": "^7.0.2",
-    "dayjs": "^1.8.28",
+    "dayjs": "^1.9.6",
     "echarts": "^4.8.0",
     "element-ui": "^2.13.2",
     "font-awesome": "^4.7.0",
