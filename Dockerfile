@@ -20,7 +20,7 @@ WORKDIR /app
 RUN yarn install && yarn run build:prod
 
 # images
-FROM ubuntu:latest
+FROM ubuntu:20.10
 
 # set as non-interactive
 ENV DEBIAN_FRONTEND noninteractive
