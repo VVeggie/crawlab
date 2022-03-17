@@ -9,7 +9,7 @@ RUN npm install -g yarn \
 
 RUN npm run build:prod
 
-FROM alpine
+FROM alpine:3.15
 
 #RUN apk update
 RUN apk add nginx
