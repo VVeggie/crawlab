@@ -9,7 +9,7 @@ ENV GOPROXY https://mirrors.aliyun.com/goproxy/
 RUN go mod vendor
 RUN go install -v ./...
 
-FROM alpine:latest
+FROM alpine:3.15.4
 WORKDIR /root
 COPY --from=build /go/src/app .
 COPY --from=build /go/bin/crawlab /usr/local/bin
