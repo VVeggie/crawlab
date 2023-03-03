@@ -1,4 +1,4 @@
-FROM golang:buster
+FROM golang:1.20.1-buster
 RUN go env -w GOPROXY=https://goproxy.io,https://goproxy.cn && \
     go env -w GO111MODULE="on"
 WORKDIR /tools
